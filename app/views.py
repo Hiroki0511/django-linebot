@@ -51,7 +51,7 @@ class CallbackView(View):
         # オウムが返しする
         reply = event.message.text
 
-        line_bot_api.reply_message.text(
+        line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text=reply)
         )

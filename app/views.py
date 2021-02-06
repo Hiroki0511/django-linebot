@@ -62,4 +62,4 @@ class CallbackView(View):
             TextSendMessage(text=reply)
         )
 
-        
+

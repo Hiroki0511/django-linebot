@@ -130,5 +130,5 @@ if not DEBUG:
     import os
     CHANNEL_ACCESS_TOKEN = os.environ["CHANNEL_ACCESS_TOKEN"]
     CHANNEL_SECRET = os.environ["CHANNEL_SECRET"]
-    TALK_API = os.environ["DZZiEpgrYx8XEMZK2UFNfLYM5D0Dzbb5"]
+    TALK_API = os.environ["DZZKhRHR6Uzh0JeQYdHnnTCpEEDXQwv1"]
     django_heroku.settings(locals())
